@@ -8,7 +8,12 @@ Vue 2.5
 Vue-router 3.0
 Bulma 0.7
 
-### 開発に必要なコマンド
+### 開発に必要なコマンド
+
+JSパッケージのインストール(初回のみ)
+```
+npm install
+```
 
 サーバーを立てる
 
@@ -16,7 +21,7 @@ Bulma 0.7
 php artisan serve
 ```
 
-ホストやポート番号を変更したい場合
+ホストやポート番号を変更したい場合
 https://qiita.com/do9iigane/items/32083f843db1e5a63fc3
 
 例) 127.0.0.1 でポートを9999
@@ -24,7 +29,7 @@ https://qiita.com/do9iigane/items/32083f843db1e5a63fc3
 php artisan serve --host=127.0.0.1 --port=9999
 ```
 
-JSとSCSSのコンパイルを起動
+JSと SCSSのコンパイルを起動
 ```
 npm run watch
 ```
