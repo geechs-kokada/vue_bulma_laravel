@@ -19,6 +19,16 @@ JSパッケージのインストール(初回のみ)
 npm install
 ```
 
+PHPの依存パッケージをインストール
+```
+composer install
+```
+
+Laravelの各種設定
+
+https://readouble.com/laravel/5.6/ja/installation.html
+
+
 サーバーを立てる
 
 ```
